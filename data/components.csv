@@ -1,0 +1,15 @@
+package,name,versions,apk_bytes,sha256,internet,bind_vpn,collect_scope,observed_upload,risk,deviceA,deviceB
+com.miui.securitycenter,手机管家 / 安全中心,12.8.7-260927.0.1 (A) / 12.x (B),73423552,f4eda1b7b0f46521c93ddc75f7d833aec7bd48674c561e545f2b84a1edd6284c,yes,no,"短信、通话记录、联系人、麦克风、OAID、本地敏感词检测、日志导出、应用隐藏",未观测到,high,uninstalled,uninstalled
+com.miui.guardprovider,系统安全组件,3.0.7-20260708.0 (A),15877999,dcec297b01561b0d3826ad70fb5608a7afbf672afa88ed490e26c8c6b9562219,yes,no,"应用清单与详情、设备 ID、通话音频、屏幕与视频帧、全盘存储",未观测到,high,uninstalled,uninstalled
+com.mobiletools.systemhelper,SystemHelper（运营商定制）,3.0.1-20260313 (A) / 1.2-20200429 (B),3831041,1de8d965e295db27e189aa179cdb45438d7f759cffbb43ce55f840b614ff6c65,yes,no,"SIM ICCID、IMEI、IMSI、精确定位与街道级地址、应用列表、信号、WiFi、5G/VoLTE 状态",抓到完整报文,high,uninstalled,uninstalled
+com.miui.securityadd,安全组件（安全中心插件）,9.12.42-260723.0.1 (A),70023448,dcade305626dbcdb8856e1c09b203cc7994dee80f8cfe1fa47af6af922f4ef18,yes,yes,"SMS 收发、摄像头、高德定位采集、热更新、设备标识",未观测到,high,uninstalled,uninstalled
+com.qualcomm.qti.autoregistration,AutoRegistration（电信终端自注册）,3.0 (B),250412,3443efdf98c7a6a818d012c40575dc6cce74f76f0c209c84aa0e6ae748a9d146,yes,no,"IMEI1/2、MEID、MMEID、MAC、SIM1/2 ICCID 与 IMSI、CELLID/BID/NID/SID",未触发,medium-high,absent,uninstalled
+com.miui.dmregservice,RegService（移动 DM）,—,2531661,6e3ff72e078a4dca54600f69bbc43ce165503ff23c62d2ef0abdcdca5acbadcc,yes,no,"基站、SIM 卡、电池充电、蓝牙、网络、WiFi 列表、屏幕快照开关",未观测到,medium-high,uninstalled,uninstalled
+com.xiaomi.registration,AutoRegistration（联通 / 广电自注册）,—,2286716,54d73246bf5ceacd54ab300c814b361cb065e2e3cbdf8ea7c1d32f2e9500e4de,yes,no,"IMEI、ICCID、IMSI、机型、系统版本、网络类型",未观测到,medium,uninstalled,absent
+com.qualcomm.qti.qms.service.telemetry,QMS Telemetry,1842253 (B),976892,bdd998a41035f5e530cc9bd34e41fc1fc5d818e0d6535c0c8581158a6258b965,yes,no,"MCC、MNC、机型、使用统计",未观测到,medium,absent,uninstalled
+com.xiaomi.security.onetrack,安全数据上报服务,1.0.250813 (A),6071954,f146c6ebdb04930ecf9e603a2fe10ef074ef17dffd76b74eb35ce68dbc4be3f6,no,no,"安全类事件（设备完整性状态），转交 com.miui.analytics 上报",无网络权限,medium,uninstalled,uninstalled
+com.qti.qualcomm.deviceinfo,Device Info,16 (A) / 12 (B),209362,91cfa35786edb58e56ed9b3ebee64a0f3d5310ac132ecf35342251552e52cb5a,no,no,"本地展示 IMEI / MEID / ICCID",无,low,kept,uninstalled
+com.qualcomm.qti.devicestatisticsservice,Device Statistics,16 (A) / 12 (B),78238,6630622bc345e8d5cc9cff91bc381001fa46216cdd0a766847318429463256f2,no,no,"本地统计",无,low,kept,uninstalled
+com.qualcomm.qti.services.systemhelper,System Helper Service（高通）,1.1 (A),29086,12b7e0cb4dc3370c096c032b43a1cdb80a262d1c5e738c27b3046ce414c8e386,no,no,"无网络能力",无,low,uninstalled,absent
+com.bsp.catchlog,Log generator,1.6.2 (A) / 12 (B),3583526,555e40a3073a71730e3cd29c7e3b94a7dfc20abfbe2ded886e3037562ca97011,no,no,"本地日志文件（sharedUserId=android.uid.system）",无,low,uninstalled,uninstalled
+com.sinovatech.unicom.ui,联通定制应用（预制）,—,128832362,4462f9a518947c359fb632ba1516a4d8344e9641ff310dc46f3af5d72b908a4d,yes,no,"未审计",未审计,unknown,kept,absent

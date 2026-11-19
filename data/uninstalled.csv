@@ -1,0 +1,23 @@
+device,model,os,root,package,version,method,state
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.miui.securitycenter,12.8.7-260927.0.1,pm uninstall -k --user 0,uninstalled
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.miui.securityadd,9.12.42-260723.0.1,pm uninstall -k --user 0,uninstalled
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.miui.guardprovider,3.0.7-20260708.0,pm uninstall -k --user 0,uninstalled
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.xiaomi.security.onetrack,1.0.250813,pm uninstall -k --user 0,uninstalled
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.mobiletools.systemhelper,3.0.1-20260313,pm uninstall -k --user 0,uninstalled
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.bsp.catchlog,1.6.2,pm uninstall -k --user 0,uninstalled
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.qualcomm.qti.services.systemhelper,1.1,pm uninstall -k --user 0,uninstalled
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.miui.dmregservice,—,pm uninstall -k --user 0,uninstalled
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.xiaomi.registration,—,pm uninstall -k --user 0,uninstalled
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.qti.qualcomm.deviceinfo,16,not uninstalled,kept (no INTERNET)
+A,Redmi 24117RK2CC (zorn / K80),Android 16 / HyperOS 3.0.307.0.WOKCNXM,KernelSU,com.qualcomm.qti.devicestatisticsservice,16,not uninstalled,kept (no INTERNET)
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.miui.securitycenter,12.x,pm uninstall -k --user 0,uninstalled
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.miui.securityadd,—,pm uninstall -k --user 0,uninstalled
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.miui.guardprovider,—,pm uninstall -k --user 0,uninstalled
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.xiaomi.security.onetrack,—,pm uninstall -k --user 0,uninstalled
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.mobiletools.systemhelper,1.2-20200429,pm uninstall -k --user 0,uninstalled
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.bsp.catchlog,12,pm uninstall -k --user 0,uninstalled
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.qualcomm.qti.autoregistration,3.0,pm uninstall -k --user 0,uninstalled
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.qualcomm.qti.qms.service.telemetry,1842253,pm uninstall -k --user 0,uninstalled
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.qualcomm.qti.devicestatisticsservice,12,pm uninstall -k --user 0,uninstalled
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.qti.qualcomm.deviceinfo,12,pm uninstall -k --user 0,uninstalled
+B,Xiaomi M2002J9E (vangogh / 米 10 青春版),Android 12 / MIUI 13.0.7.0.SJVCNXM,Magisk,com.miui.dmregservice,—,pm uninstall -k --user 0,uninstalled

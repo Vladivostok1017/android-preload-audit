@@ -1,0 +1,38 @@
+# 忽略规则
+
+# APK 与备份（体积大、属厂商版权物，靠 evidence/apk-sha256.txt 核对版本）
+*.apk
+*.apks
+*.xapk
+*.jar
+apk-backup*/
+decompiled/
+decoded/
+
+# 抓包只保留脱敏后的证据目录，其余本地试验文件不入库
+*.pcapng
+packet-captures/
+
+# 运行产物
+inventory-*/
+audit-*/
+*.log
+*.tmp
+
+# 工具与二进制
+frida-server*
+frida-*.py
+*.so
+*.dump
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# 本地隐私与临时笔记
+_diag/
+*.local.md

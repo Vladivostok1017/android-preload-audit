@@ -1,0 +1,26 @@
+package,host,port,path_or_role,protocol,evidence,note
+com.mobiletools.systemhelper,dm.wo.com.cn,18080,/register?ver=5.0&model=...&manuf=...&sign=...,http,实测,抓到 1056 与 1040 字节两次 POST；Content-Type: application/encrypted-json；返回 429 Too Many Requests
+com.qualcomm.qti.autoregistration,zzhc.vnet.cn,80,终端自注册,http,静态,中国电信
+com.qualcomm.qti.autoregistration,typdm.tydevice.com,—,电信 DM 下发,http,静态,中国电信
+com.miui.dmregservice,auc.fxltsbl.com,—,注册与配置获取,http,静态,中国移动
+com.miui.dmregservice,a.fxltsbl.com,—,上报与重试,http,静态,中国移动
+com.miui.guardprovider,detection-aigc.engine.miui.com,—,AI 反诈判定（上传 clip.mp4 的 Base64）,https,静态,经 confidentialcomputing 会话上传
+com.miui.securitycenter,api.sec.miui.com,—,主接口（21 处引用）,https,静态,
+com.miui.securitycenter,adv.sec.miui.com,—,广告（18 处引用）,https,静态,
+com.miui.securitycenter,privacy.mi.com,—,隐私政策与合规（9 处引用）,https,静态,
+com.miui.securitycenter,data.sec.miui.com,—,数据接口（8 处引用）,https,静态,
+com.miui.securitycenter,virus-engine.sec.miui.com,—,病毒库更新,https,静态,
+com.miui.securitycenter,flash.sec.miui.com,—,查杀引擎更新,https,静态,
+com.miui.securitycenter,verify.sec.xiaomi.com,—,校验,https,静态,
+com.miui.securitycenter,api.miui.security.xiaomi.com,—,安全接口,https,静态,
+com.miui.securitycenter,monitor-check.ad.xiaomi.com,—,广告监测,https,静态,
+com.miui.securitycenter,tracking.miui.com,—,埋点,https,静态,
+com.miui.securityadd,m5.amap.com,—,高德定位 SDK,https,静态,内嵌第三方 SDK
+com.miui.securityadd,restsdk.amap.com,—,高德 SDK,https,静态,
+com.miui.securityadd,wb.amap.com,—,高德 SDK,https,静态,
+com.miui.securityadd,yuntuapi.amap.com,—,高德云图,https,静态,
+com.miui.securityadd,net-assistant.10046.xiaomimobile.com,—,网络助手 / 加速,https,静态,与 LinkBoostService 关联
+com.miui.securityadd,predownload-admin.g.mi.com,—,预下载与热更新,https,静态,配合 Tinker 热修
+com.qualcomm.qti.qms.service.telemetry,config-v2.qms.quicinc.com,—,配置下发,https,静态,
+com.qualcomm.qti.qms.service.telemetry,ixk4hpvmq8.execute-api.us-west-2.amazonaws.com,—,上报接收端,https,静态,AWS API Gateway
+com.miui.securitycenter,(无),—,敏感词检测为本地词表,local,静态,SensitiveWordDetectProvider 不联网，词表本体加密内嵌
